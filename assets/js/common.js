@@ -126,5 +126,5 @@ function preventDefaultATag() {
     clickModal();
     renderScrollTopElement();
     ScrollTop();
-    // preventDefaultATag();
+    preventDefaultATag();
 })()
