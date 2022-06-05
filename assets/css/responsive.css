@@ -1,0 +1,636 @@
+/* break point for pc */
+@media (min-width: 64em) {
+  .hide-on-pc {
+    display: none;
+  }
+
+  .bottom-header__vertical-mobile-menu {
+    display: none;
+  }
+}
+
+/* break point for tablet */
+
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .hide-on-tablet {
+    display: none!important;
+  }
+  .register-section {
+    padding: 40px 0px;
+  }
+
+  .register-section__video-wrapper {
+    margin-top: 20px;
+  }
+  /* responsive navbar encroll website */
+
+  /* .top-header-page-encroll__right-navbar-menu-icon:hover ~ .top-header-page-encroll__navbar-list {
+    display: block;
+  } */
+
+
+  /* encroll regulation page section */
+  .content-enroll {
+    padding: 0px 40px;
+  }
+
+  .content-enroll__side-bar-youtube-iframe {
+    min-height: 400px; 
+  }
+  
+  /* contact page section */
+  .contact-fpt__location-traning-section-wrap {
+    flex-direction: column;
+  }
+
+  .contact-fpt__location-traning-section-info {
+    width: 100%;
+  }
+
+  .contact-fpt__location-traning-section-info-img-wrap {
+    width: 100%;
+  }
+
+
+}
+
+/* break point for tablet and mobile */
+
+@media only screen and (max-width: 63.9375em){
+
+  .col-s-m-full {
+    width: 100%;
+  }
+
+  .hide-on-mobile-tablet {
+    display: none!important;
+  }
+
+
+  .top-header {
+    justify-content: center;
+  }
+
+  .top-header__right-list {
+    font-size: 1.1rem;
+  }
+
+  .statistic-school__item {
+      
+    flex-direction: column!important;
+    align-items:center;
+  }
+
+  .statistic-school__desc-title {
+    text-align: center;
+  }
+
+  .majors__items {
+    max-width: 100%;
+  }
+  .bottom-header-container {
+    position: relative;
+  }
+
+  .bottom-header-container-mobile {
+    position: relative;
+  }
+
+  .bottom-header {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bottom-header__navbar-list {
+    font-size: 1.4rem;
+    position: absolute;
+    display: block;
+    background-color: #272f54;
+    top: 100%;
+    right: 40px;
+    margin-top: 0px;
+  }
+
+   .bottom-header__navbar-list {
+
+  }
+
+  .bottom-header__navbar-item {
+    margin: 20px 0px;
+  }
+
+  .bottom-header__navbar-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+    align-items: center;
+  }
+
+  .bottom-header__navbar-item-icon {
+    margin-left: 12px;
+    font-size: 1.2rem;
+  }
+
+  .bottom-header__vertical-mobile-menu-icon,.bottom-header__vertical-mobile-menu-icon-new {
+    font-size: 3rem;
+    color: var(--white-color);
+    margin-right: 12px;
+  }
+
+
+
+  .bottom-header__dropdown-menu {
+    background: #192041;
+    color: var(--white-color);
+    z-index: 1000000;
+  }
+
+  .bottom-header__dropdown-item {
+    border: none;
+    width: 100%;
+  }
+
+  .bottom-header__dropdown-link {
+    padding: 15px;
+  }
+  
+
+  .top-header-page-encroll__right-navbar {
+
+  }
+
+ /* navbar header menu */
+
+  .top-header-page-encroll__navbar-list {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0px;
+    width: 240px;
+  }
+
+  .top-header-page-encroll__navbar-item {
+    display: block!important;
+  }
+
+  .top-header-page-encroll__navbar-link {
+    padding: 15px 20px;
+    display: block;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-weight: 300;
+    font-size: 1.3rem;
+  }
+
+
+  .top-header-page-encroll__right-navbar-menu-icon {
+    font-size: 3rem;
+  }
+
+
+  /* slogan call to action encroll page */
+
+  .box-time-encrolled {
+    overflow: unset;
+  }
+
+  .box-time-encrolled__container  {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 40px;
+  }
+
+  .box-slogan-call-to-action {
+    /* margin-top: 300px; */
+  }
+
+  .box-time-encrolled__cta-button {
+    display: block;
+  }
+
+  /* encroll regulation page section --> update 27/5/2022*/
+  
+
+  .content-enroll__regulation-info {
+    width: 100%;
+  }
+
+  .content-enroll__side-bar {
+    width: 100%;
+  }
+
+  
+
+
+  /* box slogan call to action area */
+ 
+
+  .box-slogan__container {
+    padding: 0px 40px;
+  }
+
+  .box-slogan__desc {
+    font-weight: bold;
+   font-style: italic;
+  }
+
+  /* encroll collection */
+
+  .box-collection__wrapper  {
+    padding: 0px 0px 50px;
+  }
+
+  /* encroll annoucement area */
+
+  .encroll-annoucement__menu-item {
+    display: block;
+    text-align: center;
+  }
+
+  .encroll-annoucement__body-container {
+    padding: 30px;
+  }
+
+
+  /* register area */
+
+  .register-section {
+    background: var(--main-color);
+    height: auto;
+  }
+
+  .register-section__container {
+    flex-direction: column;
+    
+  }
+
+  .page-testimominal__feedbacks-author {
+    margin-top: -20px;
+  }
+
+  .page-testimominal__feedbacks-author::before {
+    height: 44px;
+    top: 44px;
+  }
+
+  .register-section__video-wrapper {
+    margin-top: 60px;
+  }
+
+  .page-testimominal {
+   
+  }
+
+  .page-testimominal__container {
+    flex-direction: column;
+  }
+
+  
+}
+
+
+/* responsive mobile */
+
+@media only screen and (max-width: 46.1875em) {
+    .hide-on-mobile {
+        display: none!important;
+    }
+
+    .col-s-half {
+      width: 50%;
+    }
+
+    .col-s-full {
+      width: 100%;
+    }
+
+    .display-none-mobile {
+      display: none!important;
+    }
+
+    .col-s-full {
+      width: 100%;
+  }
+
+  .top-header-container {
+    margin: 0px;
+  }
+
+  .top-header-wrap  {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .slider {
+    margin-top: 80px;
+  }
+
+  .majors__items {
+    flex-wrap: wrap;
+  }
+
+  .statistic-school .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statistic-school__item {
+    flex-direction: row!important;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .infomation__container {
+    padding: 0px 20px;
+  }
+
+  .partner__img {
+    width: 168px;
+    height: 42px;
+  }
+
+  .footer__logo {
+    width: 224px;
+  }
+
+  .footer__social-image {
+    width: 50px;
+  }
+
+  
+
+  .widget-layout__img-container {
+    width: 168px;
+
+  }
+
+  .widget-layout {
+    bottom: 0px;
+    left: -10px;
+  }
+
+  .bottom-register-fix {
+    width: 160px;
+    right: 75px;
+  }
+
+  .bottom-register__container {
+    position: relative;
+    left: -100px;
+  }
+
+  .bottom-register__title-img {
+    width: 180px;
+  }
+
+  .bottom-header__dropdown-submenu {
+    z-index: 1;
+    left: 0px;
+  }
+/* 
+  .js-bottom-header__navbar-list {
+    display: none;
+  } */
+
+  /* .bottom-header-wrap-second  {
+    display: block;
+  } */
+
+  .top-header-page-encroll__img {
+    width: 120px;
+  }
+
+
+  /* mobile encrolled reason parent choose fpt polytechnic highschool - college */
+
+  /* header area */
+  .sub-header {
+    margin-top: 62px;
+  }
+
+
+  .box-collection__img-content {
+    padding: 0px;
+    margin-bottom: 40px;
+  }
+
+  .box-collection__img-desc {
+    padding: 0px;
+  }
+
+  .box-collection__cta-title {
+    font-size: 2.2rem;
+    margin: 0px;
+  }
+
+  .box-collection__cta-btn {
+    margin-top: 12px;
+  }
+
+
+  .box-time-encrolled {
+    /* height: auto; */
+  }
+
+  .box-time-encrolled__container {
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .box-time-encrolled__cta-heading-wrap {
+    font-size: 1.4rem;
+    display: none
+  }
+
+  .box-time-encrolled__cta-button {
+    font-size: 3rem;
+  }
+
+  /* encroll annoucement area */
+
+  .encroll-annoucement__menu-item  {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-right: 0px;
+    border: 1px solid #ebebeb;
+    padding: 5px;
+  }
+
+  .encroll-annoucement__menu-link {
+    font-size: 1.6rem;
+  }
+
+
+  /* encroll regulation section */
+
+  .content-enroll {
+    padding: 0px 20px;
+  }
+  
+
+
+  /* encroll form register area */
+
+  .register-section {
+    padding: 40px 0px;
+  }
+
+  .register-section__form-wrapper {
+    
+  }
+
+  .register-section__form-button {
+    width: 100%;
+  }
+
+  .register-section__form {
+    padding: 10px 15px;
+  }
+
+  .register-section__video-wrapper {
+    height: 240px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+
+  /* feedback area */
+
+  .page-testimominal__feedbacks {
+    padding: 20px 15px 0px;
+  }
+
+
+  .modal__container{
+    flex-direction: column;
+  }
+
+  .modal__form-container{
+    width: 100%;
+  }
+}
+
+/* break point when zoom out */
+
+@media (min-width: 105.375em) {
+  /* css for modal section -- common */
+
+  .modal__container {
+    width: 60%;
+  }
+
+  /* css index.html */
+  html {
+    font-size: var(--width-80);
+  }
+
+  .majors__items {
+    width: var(--width-80);
+  }
+
+  .grid.wide {
+    max-width: var(--width-80)!important;
+
+  }
+
+  .infomation__vertical-banner {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bottom-header {
+    justify-content: center;
+  }
+
+  .bottom-header-container-mobile, .bottom-header-container {
+    max-width: var(--width-80);
+  }
+
+  .partner__container {
+    max-width: var(--width-80);
+  }
+
+  .partner__img {
+    width: 18%;
+  }
+
+  .top-header-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  /* css for notify-enroll.html */
+
+  .box-time-encrolled__container {
+    width: var(--width-80);
+  }
+
+  .register-section__container {
+    width: var(--width-80);
+  }
+
+  .page-testimominal__container {
+    width: var(--width-80)
+  }
+
+  .encroll-annoucement__body-container {
+    width: var(--width-80);
+  }
+
+  .box-collection__wrapper {
+    width: var(--width-80);
+  }
+
+
+  /* enroll regulation .css */
+  .content-enroll {
+    width: var(--width-80);
+  }
+
+
+  /* FAQ page section */
+
+  .faq-content__wrapper {
+    width: var(--width-80);
+  }
+
+
+  /* software application section */
+  .software-app__wrapper {
+    width: var(--width-80);
+  }
+
+  /* fpt education news section -- page */
+  .fpt-education {
+    width: var(--width-80);
+  }
+
+
+  /* fpt contact page section */
+
+  .contact-fpt-poly {
+    width: var(--width-80);
+  }
+}
+
+
+@media (min-width: 189.625em) { 
+
+  html {
+    font-size: 100%;
+  }
+
+  .infomation__banner-img {
+    width: 85%;
+  }
+}

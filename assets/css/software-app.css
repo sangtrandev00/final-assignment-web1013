@@ -1,0 +1,555 @@
+
+
+
+
+.software-app {
+
+}
+
+.software-app__wrapper {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.software-app__heading {
+    margin: 75px 0px 60px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4.2rem;
+}
+
+.software-app__content {
+
+}
+
+.software-app__img-container {
+
+}   
+
+.software-app__img {
+    width: 100%;
+}
+
+.software-app__content-body  {
+
+}   
+
+.software-app__content-nav {
+
+}
+
+.software-app__content-nav-list {
+    font-size: 1.3rem;
+}
+
+.software-app__content-nav-item {
+    display: inline-block;
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #283054;
+    text-align: center;
+    border: 1px solid #dedede;
+    transition: all 0.3s;
+}
+
+
+
+.software-app__content-nav-item:hover,.software-app__content-nav-item--current {
+    background: #f46521;
+    border-color: #f46521;
+    color: #fff;
+}
+
+.software-app__content-body-wrapper {
+    border: 1px solid #dedede;
+    padding: 15px;
+}
+
+.software-app__content-body-section-title {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin: 20px 0px 10px;
+}
+
+.software-app__content-body-section-desc {
+
+}
+
+.software-app__content-body-section-desc > p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: left;
+    color: #111;
+    margin-bottom: 2rem;
+}
+
+.software-app__content-body-section {
+
+}
+
+.software-app__content-body-section-list {
+    font-size: 1.4rem;
+    color: #111;
+    text-align: left;
+    padding-left: 22px;
+    margin-bottom: 22px;
+    line-height: 2.4rem;
+}
+
+.software-app__content-body-section-item {
+
+}
+
+.software-app__curriculum-relation {
+    margin-top: 30px;
+}
+
+.software-app__curriculum-relation-heading {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 20px 0px 30px;
+}
+
+.software-app__curriculum-relation-wrapper {
+    width: 100%;
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-wrap: wrap;
+}
+
+.software-app__curriculum-relation-item {
+    width: 25%;
+    padding: 0px 15px 30px;
+    text-align: center;
+    position: relative;
+}
+
+.software-app__curriculum-relation-img-container {
+    position: relative;
+}
+
+.software-app__curriculum-relation-img {
+    width: 100%;
+    
+}
+
+
+.software-app__curriculum-relation-overlay {
+    opacity: 0.877;
+    background-color: #272f54;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: overLayOut 0.5s ease-in-out;
+}
+
+@keyframes overLayOut {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.software-app__curriculum-relation-img-container:hover .software-app__curriculum-relation-overlay {
+    display: flex;
+}
+
+.software-app__curriculum-relation-button-wrapper {
+
+    color: var(--white-color);
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all 0.3s;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.software-app__curriculum-relation-button-wrapper:hover {
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+
+.software-app__curriculum-relation-img-desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 14px;
+    
+    line-height: 2.8rem;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+
+/* comment section */
+
+/* form sectin */
+
+
+
+.software-app__comment-form {
+    padding-top: 15px;
+    margin-bottom: 100px;
+}
+
+.software-app__comment-form-heading {
+    margin: 20px 0px 10px;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.software-app__comment-form-note {
+    font-size: 1.4rem;
+    color: #111;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.software-app__comment-form-sending {
+    font-size: 1.4rem;
+}
+
+.software-app__comment-form-group {
+
+}
+
+.software-app__comment-form-label {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.software-app__comment-form-label-comment {
+    margin-bottom: 54px;
+    display: block;
+    font-weight: bold;
+}
+
+.software-app__comment-form-textarea {
+    width: 100%;
+    color: #666;
+    border: 1px solid #dedede;
+    border-radius: 0;
+    padding: 8px 10px 7px;
+}
+
+.software-app__comment-form-input {
+    color: #666;
+    border: 1px solid #dedede;
+    border-radius: 0;
+    padding: 8px 10px 7px;
+
+}
+
+.software-app__comment-form-checkbox {
+    margin: 8px 0px;
+}
+
+.software-app__comment-form-checkbox-desc {
+    font-weight: bold;
+}
+
+.software-app__comment-form-btn {   
+    padding: 12px 24px;
+    border: none;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    margin-top: 60px;
+    cursor: pointer;
+    transition: all 0.4s;
+    outline: none;
+}
+
+.software-app__comment-form-btn:hover {
+    background-color: #a22531;
+}
+
+/*  */
+
+.software-app__content-progress-heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--background-main-color);
+    border: 1px solid #dedede;
+    text-align: center;
+    padding: 8px 22px;
+    margin-top: 60px;
+    margin-bottom: 22px;
+}
+
+.software-app__content-progress-semesters {
+    display: flex;
+    font-size: 1.4rem;
+    border: 1px solid #dedede;
+    flex-wrap: wrap;
+}
+
+
+
+.software-app__content-progress-semester-item-wrapper {
+    width: calc(100%/3);
+    border: 1px solid #dedede;
+    padding: 8px 22px;
+}
+
+.software-app__content-progress-semester-order {
+    margin-bottom: 22px;
+}
+
+.software-app__content-progress-semester-list {
+    padding-left: 22px;
+    margin-bottom: 22px;
+    line-height: 2.2rem;
+    color: #111;
+}
+
+.software-app__content-progress-semester-item {
+
+}
+
+.software-app__content-progress-semester-item-wrapper--align-v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* hinh thuc tuyen sinh */
+
+.software-app__content-body-record-consideration {
+    
+}
+
+.software-app__content-body-record-consideration-heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.software-app__content-body-record-consideration-btn {
+    width: 270px;
+    height: 77px;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.software-app__content-body-record-consideration-btn:hover {
+    opacity: 0.7;
+}
+
+.software-app__content-body-wrapper--text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    
+}
+
+.software-app__content-body-target-objects {
+    margin-bottom: 22px;
+    font-weight: normal;
+}
+
+.software-app__content-body-target-objects-list {
+    padding-left: 22px;
+}
+
+.software-app__content-body-target-objects-item {
+   
+}
+
+.software-app__content-body-target-objects-item--bold {
+    font-weight: bold;
+}
+
+
+
+/* hoc phi */
+
+.software-app__content-body-tuition-wrapper {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    text-align: center;
+    margin-top: 32px;
+    color: #111;
+}
+
+.software-app__content-body-tuition-heading {
+    margin-bottom: 22px;
+    color: var(--background-main-color);
+}
+
+.software-app__content-body-tuition-applied-time {
+    margin-bottom: 22px;
+    color: var(--background-main-color);
+}
+
+.software-app__content-body-tuition-table {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.software-app__content-body-tuition-table-heading {
+    
+}
+
+.software-app__content-body-tuition-table-heading-col {
+    border: 1px solid #dedede;
+    padding: 8px 22px;
+    width: calc(100%/3);
+}
+
+.software-app__content-body-tuition-table-body {
+
+}
+
+.software-app__content-body-tuition-table-body-col {
+    border: 1px solid #dedede;
+    padding: 8px 22px;
+    width: calc(100%/3);
+}
+
+.software-app__content-body-tuition-table-location-wrapper td, .software-app__content-body-tuition-table-location-wrapper th {
+    border: 1px solid #dedede;
+    width: calc(100%/6);
+    padding: 8px 22px;
+    margin-bottom: 60px;
+}
+
+
+.software-app__content-body-tuition-location-heading {
+
+}
+
+.software-app__content-body-tuition-location-heading-semester-heading {
+
+}
+
+.software-app__content-body-tuition-location-heading-col {
+
+}
+
+.software-app__content-body-tuition-location-heading-tuition-english {
+    font-weight: bold;
+}
+
+
+.software-app__content-body-tuition-location-majors-name {
+
+}
+
+.software-app__content-body-tuition-location-majors-name-col {
+    font-weight: bold;
+}
+
+
+.software-app__content-body-tuition-location-each-semester {
+
+}
+
+.software-app__content-body-tuition-location-each-semester-col {
+
+}
+
+
+/* dia diem dao tao */
+
+.software-app__content-body-location-training {
+    font-size: 1.4rem;
+    color: #111;
+    text-transform: uppercase;
+
+}
+
+.software-app__content-body-location-training-heading {
+    margin-bottom: 22px;
+}
+
+.software-app__content-body-location-training-list {
+    padding-left: 28px;
+}
+ 
+.software-app__content-body-location-training-item {
+    list-style-type: decimal;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+.software-app__content-body-location-training-item-sublist {
+    text-transform: capitalize;
+    font-weight: normal;
+    list-style: disc;
+    line-height: 2.2rem;
+    margin-top: 2.2rem;
+}
+
+.software-app__content-body-location-training-item-subitem {
+
+}
+
+
+
+
+
+
+/* responsive on tablet  and mobile*/
+@media only screen and (max-width: 63.9375em){ 
+    
+    .software-app__curriculum-relation-item {
+        width: 100%;
+    }
+}
+
+
+/* responsvie for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .faq-content__wrapper {
+        padding: 30px 40px;
+    }
+
+
+    .software-app {
+        padding: 0px 30px;
+    }
+    
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .software-app {
+        padding: 0px 20px;
+    }
+
+    .software-app__content-nav-item {
+        width: 48%;
+        
+    }
+
+    .software-app__content-nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .software-app__curriculum-relation-wrapper {
+        margin: 0px;
+    }
+}

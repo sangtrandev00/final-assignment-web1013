@@ -1,0 +1,102 @@
+
+
+.faq-content-center {
+    padding: 0px 20px;
+}
+
+.faq-content__wrapper {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.faq-content__heading {
+    font-size: 3rem;
+    line-height: 4.2rem;
+    text-align: center;
+    margin: 4px 0px 47px;
+}
+
+.faq-content__section {
+
+}
+
+.faq-content__section-heading {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    line-height: 3rem;
+    margin: 20px 0px 10px;
+    font-weight: 500;
+}
+
+.faq-content__section-list {
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+.faq-content__section-item {
+    margin-bottom: 22px;
+    font-size: inherit;
+    line-height: 3rem;
+}
+
+.faq-content__section-item-title-wrapper {
+        font-weight: 500;
+        cursor: pointer;
+        padding: 8px;
+}
+
+
+.content-enroll__titles-item-icon {
+    color: #bababa;
+    font-size: 1.3rem;
+}
+
+.content-enroll__titles-item-icon-plus {
+
+}
+
+.content-enroll__titles-item-icon-minus {
+
+}
+
+.faq-content__section-item-title-desc {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin: 14px 0px 22px 20px;
+    margin-bottom: 22px;
+}
+
+.faq-content__section-item-title-desc > p {
+    margin-bottom: 22px;
+    color: #111;
+}
+
+.faq-content__section-item-title-desc-locations-list {
+    margin-left: 20px;
+}
+
+.faq-content__section-item-title-desc-locations-item {
+    list-style-type: disc;
+}
+
+/* responsive on tablet  and mobile*/
+@media only screen and (max-width: 63.9375em){ 
+
+}
+
+
+/* responsvie for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .faq-content__wrapper {
+        padding: 30px 40px;
+    }
+
+    
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 46.1875em) {
+ 
+}

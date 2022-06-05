@@ -1,0 +1,737 @@
+
+
+/* page encroll 2022 */
+
+.top-header-page-encroll {
+    padding: 0px 30px;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.top-header-page-encroll__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header-page-encroll__img-wrap {
+    display: block;
+    text-decoration: none;
+}
+
+.top-header-page-encroll__img {
+    width: 177px;
+    height: 77px;
+    background-color: var(--primary-color);}
+
+.top-header-page-encroll__right-navbar {
+    position: relative;
+}
+
+.top-header-page-encroll__right-navbar-menu-icon {
+    font-size: 2.2rem;
+}
+
+.top-header-page-encroll__navbar-list {
+    color: var(--black-color);
+    font-size: 1.5rem;
+    list-style-type: none;
+    /* position: absolute;
+    right: 0px; */
+}
+
+.top-header-page-encroll__navbar-item {
+    display: inline-block;
+    color: inherit;
+
+}
+
+.top-header-page-encroll__navbar-link {
+    text-decoration: none;
+    font-size: inherit;
+    text-transform: uppercase;
+    padding: 0px 7px;
+    color: inherit;
+    font-weight: bolder;
+}
+
+.top-header-page-encroll__navbar-link:hover {
+    color: var(--primary-color);
+}
+
+.top-header-page-encroll__search-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.top-header-page-encroll__search-icon {
+    cursor: pointer;
+   
+}
+
+.top-header-page-encroll__search-input {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0px;
+    padding: 8px;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.slider {
+    margin-top: 62px;
+    position: unset;
+}
+
+
+/* box time ecrolled section */
+
+.box-time-encrolled {
+    overflow: hidden;
+}
+
+.box-time-encrolled__container {
+    width: 1140px;
+    height: 352px;
+    max-width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box-time-encrolled__item-rules {
+    flex: 1;
+    color: var(--white-color);
+    padding: 30px;
+    line-height: 2.6rem;
+    font-size: 1.4rem;
+    background-color: var(--main-color);
+}
+
+.box-time-encrolled__item-rules-link {
+    color: #ee3c45;
+    text-decoration: none;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.box-time-encrolled__time-frame {
+    padding: 30px;
+    flex: 1;
+    color: var(--white-color);
+    
+    font-size: 1.4rem;
+    line-height: 3.2rem;
+    background-color: var(--primary-color);
+    font-weight: bold;
+}
+
+.box-time-encrolled__time-title {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.box-time-encrolled__time-title::after {
+    content: "";
+    display: block;
+    width: 40px;
+    background-color: yellow;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.box-time-encrolled__time-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box-time-encrolled__time-item {
+    padding-bottom: 10px;
+}
+
+.box-time-encrolled__time-item--underline::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: yellow;
+    margin-top: 10px;
+
+}
+
+.box-time-encrolled__cta {
+    flex: 2;
+    color: var(--main-color);
+    background: #ebebeb;
+    padding: 30px;
+    font-size: 30px;
+    line-height: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box-time-encrolled__cta-heading {
+    color: inherit;
+    text-align: center;
+}
+
+.box-time-encrolled__cta-heading-wrap {
+    
+}
+
+.box-time-encrolled__cta-button {
+    color: var(--background-main-color);
+    font-size: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.box-slogan-call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/slogan/fpt-polytechnic-world-student-ceromony-of-graduation.webp) no-repeat center center /cover;
+    min-height: 546px;
+    color: var(--white-color);
+    position: relative;
+}
+
+.box-slogan__container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+}
+
+.box-slogan__overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    opacity: 0.45;
+}
+
+.box-slogan__title {
+    font-size: 3rem;
+    margin: 20px 0px 10px;
+    line-height: 4.0rem;
+}
+
+.box-slogan__desc {
+    font-size: 2.4rem;
+    margin: 20px 0px 40px;
+    padding-bottom: 40px;
+    position: relative;
+    line-height: 3.2rem;
+}
+
+.box-slogan__desc::after {
+    display: block;
+    content: "";
+    background-color: var(--background-main-color);
+    height: 3px;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+}
+
+.box-slogan__wrap-slogan {
+    color: var(--background-main-color);
+    font-weight: bold;
+}
+
+.box-slogan__call-to-action-btn  {
+    font-size: 2.4rem;
+    background-color: var(--background-main-color);
+    display: inline-block;
+    padding: 15px 50px 16px;
+    min-width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.box-slogan__call-to-action-btn:hover {
+    background-color: var(--primary-color);
+}
+
+/* box collection good things from everyone */
+
+.box-collection {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.box-collection__wrapper {
+    padding: 0px 15px 50px;
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+
+.box-collection__title {
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px 10px;
+    color: inherit;
+    line-height: 4.2rem;
+}
+
+.box-collection__img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.box-collection__img-content {
+    padding: 0px 45px 40px;
+}
+
+.box-collection__img-img {
+    width: 100%;
+}
+
+.box-collection__img-desc {
+    font-size: 2.0rem;
+    color: inherit;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0px 10px;
+    padding: 0px 60px;
+    line-height: 2.2rem;
+}
+
+.box-collection__img-content {
+    
+}
+
+.box-collection__cta-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box-collection__cta-title {
+    color: #389c3b;
+    font-size: 3rem;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 4.0rem;
+}
+
+.box-collection__cta-btn {
+    color: var(--white-color);
+    background-image: linear-gradient(72deg,#df630f,#f7803b 58%,#ed943f);
+    padding: 15px 40px 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
+    
+    text-decoration: none;
+}
+
+.box-collection__cta-btn:hover {
+    background-image: linear-gradient(72deg,#ed943f,#f7803b 58%,#df630f);
+}
+
+
+/* encrolled annoucement section */
+
+.encroll-annoucement {
+    background: #e1e1e1;
+
+}
+
+.encroll-annoucement__wrapper {
+    padding: 0 15px;
+}
+
+.encroll-annoucement__header {
+    overflow: hidden;
+}
+
+.encroll-annoucement__heading {
+    text-align: center;
+    color: var(--background-main-color);
+    font-size: 3rem;
+    margin: 40px 0px 10px;
+    line-height: 4.2rem;
+}
+
+.encroll-annoucement__menu-tab {
+
+}
+
+.encroll-annoucement__menu-list {
+    padding: 20px;
+}
+
+.encroll-annoucement__menu-item {
+    display: inline-block;
+    padding: 15px 10px;
+    margin-right: 15px;
+    color:rgba(0, 0, 0, 0.87);
+    transition: all 0.3s;
+}
+
+.encroll-annoucement__menu-link {
+    color: inherit;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.encroll-annoucement__menu-item--active {
+    background-color: var(--background-main-color);
+    color: var(--white-color);
+}
+
+.encroll-annoucement__menu-item:hover {
+    background-color: var(--background-main-color);
+    color: var(--white-color); 
+}
+
+/* encroll-annoucement__body */
+
+.encroll-annoucement__body {
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--white-color);
+}
+
+.encroll-annoucement__body-content {
+
+}
+
+.encroll-annoucement__body-container {
+    padding: 36px 15px;
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: var(--main-color);
+}
+
+.encroll-annoucement__body-content-wrapper {
+    margin-bottom: 22px;
+}
+
+.encroll-annoucement__body-heading {
+    margin-bottom: 22px;
+    font-size: 1.4rem;
+    color: var(--background-main-color);
+    text-transform: uppercase;
+}
+
+.encroll-annoucement__body-desc {
+    font-size: 1.4rem;
+    
+}
+
+.encroll-annoucement__body-desc-major-list {
+    list-style-type: none;
+}
+
+.encroll-annoucement__body-desc-major-item {
+    margin-bottom: 22px;
+}
+
+.encroll-annoucement__body-desc-major-item--black-color, .encroll-annoucement__body-desc--black-color {
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+.encroll-annoucement__body-desc-submajor-list {
+    margin-top: 22px;
+    color: inherit;
+    list-style-type: disc;
+
+}
+
+.encroll-annoucement__body-desc-submajor-item {
+    margin-bottom: 22px;  
+    font-weight: normal;
+    color:   #a22531;
+}
+
+.encroll-annoucement__body-desc-submajor-link {
+    text-decoration: none;
+}
+
+
+
+.encroll-annoucement__body-desc-tuition {
+
+}
+
+.encroll-annoucement__body-desc-tuition-img {
+    width: 100%;
+}
+
+.encroll-annoucement__body-desc-record-entry-list {
+    
+}
+
+.encroll-annoucement__body-desc-record-entry-item {
+    line-height: 2.4rem;
+}
+
+.encroll-annoucement__body-desc-item {
+    line-height: 2.2rem;
+}
+
+.encroll-annoucement__body-desc-item-transaction {
+    margin-bottom: 22px;
+    list-style-type: none;
+}
+
+.encroll-annoucement__body-desc-title-location {
+    margin-bottom: 22px;
+}
+
+.register-section {
+    background: url(../img/form-background/form-background-school-member-graduation.jfif) no-repeat center /cover;
+    height: 664px;
+}
+
+.register-section__container { 
+    width: 1140px;
+    padding: 0px 15px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.register-section__form-wrapper { 
+   flex: 1;
+}
+
+.register-section__form { 
+    background-color: var(--primary-color);
+    min-height: 564px;
+    color: var(--white-color);
+    overflow: hidden;
+    padding: 10px 50px 30px;
+    font-size: 1.3rem;
+}
+
+.register-section__form-heading { 
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 2rem 0px 30px;
+    text-align: center;
+}
+
+.register-section__form-group { 
+    margin-top: 16px;
+}
+
+.register-section__form-control { 
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 5px;
+    font-size: inherit;
+    border: none;
+    padding: 0px 8px;
+    outline: none;
+}
+
+.register-section__selection { 
+    font-size: inherit;
+}
+
+.register-section__form-checkbox-group { 
+    margin: 12px 0px;
+}
+
+.register-section__form-checkbox-input {
+
+}
+
+.register-section__form-checkbox-label {
+
+}
+
+.register-section__form-button {
+   margin: 0 auto;
+    color: var(--white-color);
+    padding: 12px 40px;
+    border: none;
+    background-color: var(--main-color);
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.register-section__form-button:hover {
+    background-color: #a22531;
+    color: var(--white-color);
+}
+
+/* video section */
+
+.register-section__video-wrapper {
+    flex: 1;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.register-section__video-wrapper {
+    width: 100%;
+    min-height: 382px;
+}
+
+
+/* testimoninal section */
+
+.page-testimominal {
+    margin: 50px 0px;
+}
+
+.page-testimominal__container {
+    display: flex;
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+    
+    
+}
+
+.page-testimominal__avatars {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+.page-testimominal__avatars--active  {
+
+}
+
+.page-testimominal__avatar-author {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.page-testimominal__avatar-author-img {
+    width: 100%;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    height: auto;
+    opacity: 0.5;
+}
+
+.page-testimominal__avatar-author-img--active {
+    opacity: 1!important;
+}
+
+.page-testimominal__feedbacks {
+    flex: 1;
+    padding: 20px 15px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.8rem;
+    color: var(--main-color);
+}
+
+.page-testimominal__feedbacks-content {
+    
+   font-size: inherit;
+    line-height: 2.8rem;
+    font-weight: 700;
+    color: inherit;
+    text-align: justify;
+}
+
+.page-testimominal__feedbacks-author {
+    font-size: inherit;
+    line-height: 2.4rem;
+    margin-left: 20px;
+}
+
+.page-testimominal__feedbacks-author::before {
+    content: "";
+    display: block;
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 6px;
+    position: relative;
+    left: -20px;
+    top: 100%;
+}
+
+.page-testimominal__feedbacks-author-name {
+    color: inherit;
+    font-weight: 700;
+}
+
+.page-testimominal__feedbacks-author-class {
+    color: inherit;
+}
+
+
+/* responsive on tablet  and mobile*/
+@media only screen and (max-width: 63.9375em){ 
+    .content-enroll__regulation-info,.content-enroll__side-bar {
+        width: 100%;
+    }
+
+    .content-enroll__titles-item {
+        margin-top: 20px;
+    }
+
+    .content-enroll__side-bar-link-icon-wrap {
+        width: 100px;
+    }
+
+    .content-enroll {
+        padding: 0px 35px;
+    }
+}
+
+
+/* responsvie for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .register-section__video-wrapper {
+        height: 500px;
+    }
+    
+
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .content-enroll {
+        padding: 0px 20px;
+    }
+}
+
+
+
+/* end - page encroll 2022 */

@@ -1,0 +1,55 @@
+
+.fpt-education {
+    width: 1140px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.fpt-education__wrapper {
+
+}
+
+.fpt-education__heading {
+    color: #111;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 4.2rem;
+}
+
+.fpt-education__img-wrapper {
+
+}
+
+.fpt-education__img {
+    width: 100%;
+}
+
+.fpt-education__plugin-comment {
+
+}
+
+
+/* responsive on tablet  and mobile*/
+@media only screen and (max-width: 63.9375em){ 
+    
+
+}
+
+
+/* responsvie for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .fpt-education {
+        padding: 0px 30px;
+    }
+    
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 46.1875em) {
+
+    .fpt-education {
+        padding: 0px 20px;
+    }
+
+}
