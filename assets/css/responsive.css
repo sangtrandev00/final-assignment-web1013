@@ -1,3 +1,5 @@
+
+
 /* break point for pc */
 @media (min-width: 64em) {
   .hide-on-pc {
@@ -302,6 +304,14 @@
       width: 50%;
     }
 
+    .top-header__contact-link {
+      padding: 0px;
+    }
+
+    .top-header__contact-link:last-child {
+      text-transform: uppercase;
+    }
+
     .col-s-full {
       width: 100%;
     }
@@ -324,6 +334,10 @@
     justify-content: center;
     align-items: center;
   }
+
+ 
+
+  
 
 
   .slider {
