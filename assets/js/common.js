@@ -91,7 +91,7 @@ function showModal() {
     setTimeout(() => {
         modalSection.classList.remove('display-none');
         console.log('hello world');
-    }, 3000);
+    }, 10000);
 
 
 
@@ -101,6 +101,7 @@ function showModal() {
 function preventDefaultATag() {
     const bottomHeaderNavLinkElements = document.querySelectorAll('.bottom-header__navbar-link');
     const bottomHeaderNavLinkElementList = Array.from(bottomHeaderNavLinkElements);
+    console.log(bottomHeaderNavLinkElementList);
     bottomHeaderNavLinkElementList.forEach((itemLink) => {
         itemLink.addEventListener('click',(e) => {
             e.preventDefault();
@@ -109,13 +110,13 @@ function preventDefaultATag() {
     // console.log(bottomHeaderNavLinkElementList)
 
 
-    const bottomHeaderDropdownElements = document.querySelectorAll('.bottom-header__dropdown-link');
-    const bottomHeaderDropdownElementList = Array.from(bottomHeaderDropdownElements);
-    bottomHeaderDropdownElementList.forEach((itemDropdown) => {
-        itemDropdown.addEventListener('click',(e) => {
-            e.preventDefault();
-        })
-    })
+    // const bottomHeaderDropdownElements = document.querySelectorAll('.bottom-header__dropdown-link');
+    // const bottomHeaderDropdownElementList = Array.from(bottomHeaderDropdownElements);
+    // bottomHeaderDropdownElementList.forEach((itemDropdown) => {
+    //     itemDropdown.addEventListener('click',(e) => {
+    //         e.preventDefault();
+    //     })
+    // })
 }
 
 
@@ -126,5 +127,5 @@ function preventDefaultATag() {
     clickModal();
     renderScrollTopElement();
     ScrollTop();
-    // preventDefaultATag();
+    preventDefaultATag();
 })()
