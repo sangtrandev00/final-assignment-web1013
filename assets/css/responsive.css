@@ -13,7 +13,6 @@
 
 /* break point for tablet */
 
-
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .hide-on-tablet {
     display: none!important;
@@ -292,7 +291,6 @@
   
 }
 
-
 /* responsive mobile */
 
 @media only screen and (max-width: 46.1875em) {
@@ -531,6 +529,19 @@
   .modal__form-container{
     width: 100%;
   }
+
+  /* software application area */
+
+  /* Tiến độ  đào tạo */
+  .software-app__content-progress-semester-item-wrapper {
+    width: 100%;
+  }
+
+  /* học phí responsive */
+  .software-app__content-body-tuition-wrapper {
+    overflow-x: auto;
+  }
+
 }
 
 /* break point when zoom out */

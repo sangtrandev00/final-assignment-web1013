@@ -3,13 +3,13 @@ function changeTabsContact() {
     const $ = document.querySelector.bind(document);
 
     const contactLocationBtns = document.querySelectorAll('.contact-fpt__nav-item');
-    console.log(contactLocationBtns);
+    // console.log(contactLocationBtns);
     
     const contactSectionWrap = document.querySelectorAll('.contact-fpt__location-traning-section');
     const contactSectionWrapArr = Object.values(contactSectionWrap);
     
     const contactLocationBtnsArr = Object.values(contactLocationBtns);
-    console.log(contactLocationBtnsArr);
+    // console.log(contactLocationBtnsArr);
     
     contactLocationBtnsArr.forEach((placement, index) => {
         placement.addEventListener('click', (e) => {
@@ -26,8 +26,11 @@ function changeTabsContact() {
     
             placement.parentElement.parentElement.nextElementSibling.children[index].classList.toggle('display-none');
             
+            // window.scrollY = 500;
+            // document.documentElement.scrollTop = 533;
         })
     })
+    
 }
 
 
