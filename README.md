@@ -2,3 +2,6 @@
 
 Happy coding 
 Link vercel: https://final-assignment-web1013.vercel.app/
+Evaluation: 10
+Technology in use: 
++ HTML, CSS, Javascript, Responsive
